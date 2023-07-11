@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace CleanArch.Domain.Validation;
 
-namespace CleanArch.Domain.Validation
+public class DomainValidationException : Exception
 {
-    internal class DomainValidationException
+    public DomainValidationException(string error) : base(error)
+    { }
+
+    public static void When(bool hasError, string error)
     {
+        if (hasError)
+            throw new DomainValidationException(error);
     }
 }
