@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8zcgfKstMNtRhSCvmUokbIyNix4vzjJtoHSRL1hNEUJeUTGfAQoL3GltvUeprvSWsNIvzxz3j2/wLIYtOkiLQQ==",
+  "dgSpecHash": "FJs8Dt9yl8zHT8xby9qpdzTARzrOHFC50gBM74ZGOern2mfggzlCrzlvNJTHATJav29CxuW6I5XL1u7f1YDc7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafael\\source\\repos\\CleanArchApiConsulta\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj",
+  "projectFilePath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

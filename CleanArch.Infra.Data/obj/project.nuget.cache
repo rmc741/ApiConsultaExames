@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4+6D3XIdTpc3b4I6Ob+ManV4+PPlZIttYyAThEDX3riOzgrr0+68jo2jK5dTw5VLU5QMoZrFUNHZ7uFj+sXi+g==",
+  "dgSpecHash": "Ff7Gg8OPTw9dfp0pLjjvzenIU3KpewcMz3FkhwVDDbQFwyB6JQiNIA0hpy4O2utoQDQqDrSzZhFWRDvNn9H5tw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafael\\source\\repos\\CleanArchApiConsulta\\Infra.Data\\CleanArch.Infra.Data.csproj",
+  "projectFilePath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
