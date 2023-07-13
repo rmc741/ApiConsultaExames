@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FJs8Dt9yl8zHT8xby9qpdzTARzrOHFC50gBM74ZGOern2mfggzlCrzlvNJTHATJav29CxuW6I5XL1u7f1YDc7g==",
+  "dgSpecHash": "/xJaK9juvqpx0Q3nkszox00siRglOD8r+ZzGcwJYYZn+a8NV6xUk78JjwF85eRshw1QpvC6aQ5zLKzYQzJrRjg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj",
+  "projectFilePath": "D:\\Projetos\\ApiConsultaExames\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

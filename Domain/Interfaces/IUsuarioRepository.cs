@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CleanArch.Domain.Entities;
 
-namespace CleanArch.Domain.Interfaces
+namespace CleanArch.Domain.Interfaces;
+
+public interface IUsuarioRepository
 {
-    internal interface IUsuarioRepository
-    {
-    }
+    Task<IEnumerable<Usuario>> GetConsultas();
+    Task<Usuario> GetById(int id);
+    Task<Usuario> Create(Usuario user);
+    Task<Usuario> Update(Usuario user);
+    Task<Usuario> Remove(Usuario user);
 }

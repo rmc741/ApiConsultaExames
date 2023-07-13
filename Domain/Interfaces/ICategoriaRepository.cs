@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CleanArch.Domain.Entities;
 
-namespace CleanArch.Domain.Interfaces
+namespace CleanArch.Domain.Interfaces;
+
+public interface ICategoriaRepository
 {
-    internal interface ICategoriaRepository
-    {
-    }
+    Task<IEnumerable<Categoria>> GetCategorias();
+
+    Task<Categoria> GetById(int id);
+    Task<Categoria> Create(Categoria categoria);
+    Task<Categoria> Update(Categoria categoria);
+    Task<Categoria> Remove(Categoria categoria);
 }
