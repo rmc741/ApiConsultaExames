@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace CleanArch.Infra.Data.Repositories;
 
-namespace CleanArch.Infra.Data.Repositories
+public class ExameRepository
 {
-    internal class ExameRepository
-    {
-    }
 }
