@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "CleanArch.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CleanArch.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArch.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CleanArch.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/CleanArch.Domain.csproj",
+      "msbuildProject": "../Domain/CleanArch.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "CleanArch.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Rafael\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj": {
+              "projectPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
