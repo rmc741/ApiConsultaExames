@@ -14,7 +14,9 @@ public class ConsultaUnitTest
     [Fact]
     public void CreateConsulta_WithValidParameters_ResultObjectValidState()
     {
-        Action action = () => new Consulta("Descrição", DateTime.Now.AddDays(2), "CRM Medico", 1, 1);
+        DateTime data = DateTime.Now.AddDays(2);
+        var formattedDate = String.Format("{0:dd/MM/yyyy HH:mm:ss ff z}", data);
+        Action action = () => new Consulta("Descrição", DateTime.Parse(formattedDate), "CRM Medico", 1, 1); ;
         action.Should().NotThrow<DomainValidationException>();
     }
 }
