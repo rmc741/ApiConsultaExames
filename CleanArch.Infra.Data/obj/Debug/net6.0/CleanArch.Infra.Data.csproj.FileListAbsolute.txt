@@ -1,0 +1,17 @@
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.Data\bin\Debug\net6.0\CleanArch.Infra.Data.deps.json
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.Data\bin\Debug\net6.0\CleanArch.Infra.Data.runtimeconfig.json
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.Data\bin\Debug\net6.0\CleanArch.Infra.Data.dll
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.Data\bin\Debug\net6.0\CleanArch.Infra.Data.pdb
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.Data\bin\Debug\net6.0\CleanArch.Domain.dll
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.Data\bin\Debug\net6.0\CleanArch.Domain.pdb
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.Data\obj\Debug\net6.0\CleanArch.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.Data\obj\Debug\net6.0\CleanArch.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.Data\obj\Debug\net6.0\CleanArch.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.Data\obj\Debug\net6.0\CleanArch.Infra.Data.AssemblyInfo.cs
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.Data\obj\Debug\net6.0\CleanArch.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.Data\obj\Debug\net6.0\CleanArch.Infra.Data.csproj.CopyComplete
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.Data\obj\Debug\net6.0\CleanArch.Infra.Data.dll
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.Data\obj\Debug\net6.0\refint\CleanArch.Infra.Data.dll
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.Data\obj\Debug\net6.0\CleanArch.Infra.Data.pdb
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.Data\obj\Debug\net6.0\CleanArch.Infra.Data.genruntimeconfig.cache
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.Data\obj\Debug\net6.0\ref\CleanArch.Infra.Data.dll
