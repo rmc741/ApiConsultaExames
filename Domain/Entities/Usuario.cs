@@ -9,14 +9,12 @@ public class Usuario : EntityBase
     public string Email { get; set; }
     public string Password { get; set; }
     public string Situacao { get; set; }
-
     public ICollection<Consulta> UsuarioConsultas { get; set; }
     public ICollection<Exame> UsuarioExames { get; set; }
 
-
     public Usuario(string nomeUsuario, string nomeCompleto, string email, string password, string situacao)
     {
-        ValidadeDomain(nomeUsuario,nomeCompleto,email, password, situacao);
+        ValidadeDomain(nomeUsuario, nomeCompleto, email, password, situacao);
     }
 
     private void ValidadeDomain(string nomeUsuario, string nomeCompleto, string email, string password, string situacao)
@@ -34,8 +32,6 @@ public class Usuario : EntityBase
         DomainValidationException.When(password.Length < 6, "Senha precisa ter no minimo 6 caracteres");
 
         DomainValidationException.When(string.IsNullOrEmpty(situacao), "Necessário informar Situação do Usuário!");
-
-
 
         NomeUsuario = nomeUsuario;
         NomeCompleto = nomeCompleto;
