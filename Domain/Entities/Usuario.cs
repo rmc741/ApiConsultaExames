@@ -11,6 +11,7 @@ public class Usuario : EntityBase
     public string Situacao { get; set; }
 
     public ICollection<Consulta> UsuarioConsultas { get; set; }
+    public ICollection<Exame> UsuarioExames { get; set; }
 
 
     public Usuario(string nomeUsuario, string nomeCompleto, string email, string password, string situacao)
@@ -27,7 +28,7 @@ public class Usuario : EntityBase
         DomainValidationException.When(nomeCompleto.Length < 3, "Necessário informar Nome Completo");
 
         DomainValidationException.When(string.IsNullOrEmpty(email), "Email NÂO pode ser nulo ou vazio!");
-        DomainValidationException.When(Email.Length < 3, "Necessário informar Email valido");
+        DomainValidationException.When(email.Length < 3, "Necessário informar Email valido");
 
         DomainValidationException.When(string.IsNullOrEmpty(password), "Senha não pode ser nula ou vazia");
         DomainValidationException.When(password.Length < 6, "Senha precisa ter no minimo 6 caracteres");

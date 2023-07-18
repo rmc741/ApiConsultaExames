@@ -23,7 +23,7 @@ public class Exame : EntityBase
         DomainValidationException.When(string.IsNullOrEmpty(descricao), "Descrição não pode ser vazio ou nulo!");
         DomainValidationException.When(descricao.Length < 3, "Descrição precisar ter pelo menos 3 caracteres!");
 
-        DomainValidationException.When(DataExame <= DateTime.Now.Date, "Necessário uma data válida para exame!");
+        DomainValidationException.When(dataExame <= DateTime.Now.Date, "Necessário uma data válida para exame!");
 
         DomainValidationException.When(string.IsNullOrEmpty(medicoCRM), "Necessario informar CRM do médico!");
 
