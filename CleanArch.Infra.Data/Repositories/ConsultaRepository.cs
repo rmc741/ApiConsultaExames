@@ -1,32 +1,47 @@
 ﻿using CleanArch.Domain.Entities;
 using CleanArch.Domain.Interfaces;
+using CleanArch.Infra.Data.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace CleanArch.Infra.Data.Repositories;
 
 public class ConsultaRepository : IConsultaRepository
 {
-    public Task<Consulta> Create(Consulta consulta)
+    private ApplicationDbContext _consultaContext;
+
+    public ConsultaRepository(ApplicationDbContext consultaContext)
     {
-        throw new NotImplementedException();
+        _consultaContext = consultaContext;
     }
 
-    public Task<Consulta> GetById(int id)
+    public async Task<Consulta> Create(Consulta consulta)
     {
-        throw new NotImplementedException();
+        _consultaContext.Add(consulta);
+        await _consultaContext.SaveChangesAsync();
+        return consulta;
     }
 
-    public Task<IEnumerable<Consulta>> GetConsultas()
+    public async Task<Consulta> GetById(int? id)
     {
-        throw new NotImplementedException();
+        return await _consultaContext.Consultas.FindAsync(id);
     }
 
-    public Task<Consulta> Remove(Consulta consulta)
+    public async Task<IEnumerable<Consulta>> GetConsultas()
     {
-        throw new NotImplementedException();
+        return await _consultaContext.Consultas.OrderBy(x => x.Id).ToListAsync();
     }
 
-    public Task<Consulta> Update(Consulta consulta)
+    public async Task<Consulta> Remove(Consulta consulta)
     {
-        throw new NotImplementedException();
+        _consultaContext.Remove(consulta);
+        await _consultaContext.SaveChangesAsync();
+        return consulta;
+    }
+
+    public async Task<Consulta> Update(Consulta consulta)
+    {
+        _consultaContext.Update(consulta);
+        await _consultaContext.SaveChangesAsync();
+        return consulta;
     }
 }

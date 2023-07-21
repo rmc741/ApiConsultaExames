@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Test.Domain\\CleanArch.Test.Domain.csproj": {}
+    "D:\\Projetos\\ApiConsultaExames\\CleanArch.Test.Domain\\CleanArch.Test.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Test.Domain\\CleanArch.Test.Domain.csproj": {
+    "D:\\Projetos\\ApiConsultaExames\\CleanArch.Test.Domain\\CleanArch.Test.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Test.Domain\\CleanArch.Test.Domain.csproj",
+        "projectUniqueName": "D:\\Projetos\\ApiConsultaExames\\CleanArch.Test.Domain\\CleanArch.Test.Domain.csproj",
         "projectName": "CleanArch.Test.Domain",
-        "projectPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Test.Domain\\CleanArch.Test.Domain.csproj",
+        "projectPath": "D:\\Projetos\\ApiConsultaExames\\CleanArch.Test.Domain\\CleanArch.Test.Domain.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Test.Domain\\obj\\",
+        "outputPath": "D:\\Projetos\\ApiConsultaExames\\CleanArch.Test.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,16 +27,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/Idib/Idib/_packaging/InstitutoNuget/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj": {
-                "projectPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj"
+              "D:\\Projetos\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj": {
+                "projectPath": "D:\\Projetos\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj"
               }
             }
           }
@@ -91,21 +90,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj": {
+    "D:\\Projetos\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj",
+        "projectUniqueName": "D:\\Projetos\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj",
         "projectName": "CleanArch.Domain",
-        "projectPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj",
+        "projectPath": "D:\\Projetos\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\Domain\\obj\\",
+        "outputPath": "D:\\Projetos\\ApiConsultaExames\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -117,9 +117,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/Idib/Idib/_packaging/InstitutoNuget/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -152,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

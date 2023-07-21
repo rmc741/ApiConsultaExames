@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1gZrIh+qdKVwEH3EM2CCjdFclKXFGyHAOM+7Lx1c73MwUzMve2slVYWtDJd4+NUK9LLDe1ym0jeyBLgv/E0wvg==",
+  "dgSpecHash": "bj8L7T+d0su1Q4I+lmbAmyc/EKdkj11CU9XONNfc4DinuxvliysW0ho5JjubW5m9BFT68YjT56pEQ2vCxJ3s3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.API\\CleanArch.API.csproj",
+  "projectFilePath": "D:\\Projetos\\ApiConsultaExames\\CleanArch.API\\CleanArch.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rafael\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Rafael\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",
     "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.0.1\\microsoft.data.sqlclient.sni.runtime.5.0.1.nupkg.sha512",
     "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",

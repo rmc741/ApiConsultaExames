@@ -10,4 +10,5 @@ public interface IConsultaRepository
     Task<Consulta> Create(Consulta consulta);
     Task<Consulta> Update(Consulta consulta);
     Task<Consulta> Remove(Consulta consulta);
+    Task<Consulta> GetById(int? id);
 }

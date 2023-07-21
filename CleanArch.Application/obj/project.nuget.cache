@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i1N9mSaZwA+yuDbUfIYXgfIsG5nKWXW6ONcxiIWNua3nmcWlqFs6JHxULYHJqHoKaUpp0PGBS9SgRJJY9AgbuA==",
+  "dgSpecHash": "xdcT1ojxwJjSuUPtQIrPhRhXUxu5VAikXzDqHf6Nbz23n7nQmBzJY424svESQZs5aoas5JHC6uYPKr9I49FiGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Application\\CleanArch.Application.csproj",
+  "projectFilePath": "D:\\Projetos\\ApiConsultaExames\\CleanArch.Application\\CleanArch.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

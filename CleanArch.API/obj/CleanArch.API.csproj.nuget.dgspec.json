@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.API\\CleanArch.API.csproj": {}
+    "D:\\Projetos\\ApiConsultaExames\\CleanArch.API\\CleanArch.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.API\\CleanArch.API.csproj": {
+    "D:\\Projetos\\ApiConsultaExames\\CleanArch.API\\CleanArch.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.API\\CleanArch.API.csproj",
+        "projectUniqueName": "D:\\Projetos\\ApiConsultaExames\\CleanArch.API\\CleanArch.API.csproj",
         "projectName": "CleanArch.API",
-        "projectPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.API\\CleanArch.API.csproj",
+        "projectPath": "D:\\Projetos\\ApiConsultaExames\\CleanArch.API\\CleanArch.API.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.API\\obj\\",
+        "outputPath": "D:\\Projetos\\ApiConsultaExames\\CleanArch.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,16 +27,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/Idib/Idib/_packaging/InstitutoNuget/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj": {
-                "projectPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj"
+              "D:\\Projetos\\ApiConsultaExames\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj": {
+                "projectPath": "D:\\Projetos\\ApiConsultaExames\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj"
               }
             }
           }
@@ -74,21 +73,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Application\\CleanArch.Application.csproj": {
+    "D:\\Projetos\\ApiConsultaExames\\CleanArch.Application\\CleanArch.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Application\\CleanArch.Application.csproj",
+        "projectUniqueName": "D:\\Projetos\\ApiConsultaExames\\CleanArch.Application\\CleanArch.Application.csproj",
         "projectName": "CleanArch.Application",
-        "projectPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Application\\CleanArch.Application.csproj",
+        "projectPath": "D:\\Projetos\\ApiConsultaExames\\CleanArch.Application\\CleanArch.Application.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Application\\obj\\",
+        "outputPath": "D:\\Projetos\\ApiConsultaExames\\CleanArch.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -100,16 +100,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/Idib/Idib/_packaging/InstitutoNuget/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj": {
-                "projectPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj"
+              "D:\\Projetos\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj": {
+                "projectPath": "D:\\Projetos\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj"
               }
             }
           }
@@ -139,21 +137,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj": {
+    "D:\\Projetos\\ApiConsultaExames\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj",
+        "projectUniqueName": "D:\\Projetos\\ApiConsultaExames\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj",
         "projectName": "CleanArch.Infra.Data",
-        "projectPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj",
+        "projectPath": "D:\\Projetos\\ApiConsultaExames\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Infra.Data\\obj\\",
+        "outputPath": "D:\\Projetos\\ApiConsultaExames\\CleanArch.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -165,16 +164,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/Idib/Idib/_packaging/InstitutoNuget/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj": {
-                "projectPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj"
+              "D:\\Projetos\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj": {
+                "projectPath": "D:\\Projetos\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj"
               }
             }
           }
@@ -226,21 +223,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj": {
+    "D:\\Projetos\\ApiConsultaExames\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj",
+        "projectUniqueName": "D:\\Projetos\\ApiConsultaExames\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj",
         "projectName": "CleanArch.Infra.IoC",
-        "projectPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj",
+        "projectPath": "D:\\Projetos\\ApiConsultaExames\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Infra.IoC\\obj\\",
+        "outputPath": "D:\\Projetos\\ApiConsultaExames\\CleanArch.Infra.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -252,22 +250,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/Idib/Idib/_packaging/InstitutoNuget/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Application\\CleanArch.Application.csproj": {
-                "projectPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Application\\CleanArch.Application.csproj"
+              "D:\\Projetos\\ApiConsultaExames\\CleanArch.Application\\CleanArch.Application.csproj": {
+                "projectPath": "D:\\Projetos\\ApiConsultaExames\\CleanArch.Application\\CleanArch.Application.csproj"
               },
-              "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj": {
-                "projectPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj"
+              "D:\\Projetos\\ApiConsultaExames\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj": {
+                "projectPath": "D:\\Projetos\\ApiConsultaExames\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj"
               },
-              "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj": {
-                "projectPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj"
+              "D:\\Projetos\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj": {
+                "projectPath": "D:\\Projetos\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj"
               }
             }
           }
@@ -297,21 +293,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj": {
+    "D:\\Projetos\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj",
+        "projectUniqueName": "D:\\Projetos\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj",
         "projectName": "CleanArch.Domain",
-        "projectPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj",
+        "projectPath": "D:\\Projetos\\ApiConsultaExames\\Domain\\CleanArch.Domain.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\Desktop\\Estudos\\C#\\ApiConsultaExames\\Domain\\obj\\",
+        "outputPath": "D:\\Projetos\\ApiConsultaExames\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -323,9 +320,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/Idib/Idib/_packaging/InstitutoNuget/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -358,7 +353,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
