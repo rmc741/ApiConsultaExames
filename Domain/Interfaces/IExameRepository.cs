@@ -10,7 +10,7 @@ namespace CleanArch.Domain.Interfaces;
 public interface IExameRepository
 {
     Task<IEnumerable<Exame>> GetConsultas();
-    Task<Exame> GetById(int id);
+    Task<Exame> GetById(int? id);
     Task<Exame> Create(Exame exame);
     Task<Exame> Update(Exame exame);
     Task<Exame> Remove(Exame exame);

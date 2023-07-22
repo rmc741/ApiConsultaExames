@@ -1,32 +1,47 @@
 ﻿using CleanArch.Domain.Entities;
 using CleanArch.Domain.Interfaces;
+using CleanArch.Infra.Data.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace CleanArch.Infra.Data.Repositories;
 
 public class UsuarioRepository : IUsuarioRepository
 {
-    public Task<Usuario> Create(Usuario user)
+    private readonly ApplicationDbContext _usuarioContext;
+
+    public UsuarioRepository(ApplicationDbContext usuarioContext)
     {
-        throw new NotImplementedException();
+        _usuarioContext = usuarioContext;
     }
 
-    public Task<Usuario> GetById(int id)
+    public async Task<Usuario> Create(Usuario user)
     {
-        throw new NotImplementedException();
+        _usuarioContext.Add(user);
+        await _usuarioContext.SaveChangesAsync();
+        return user;
     }
 
-    public Task<IEnumerable<Usuario>> GetConsultas()
+    public async Task<Usuario> GetById(int? id)
     {
-        throw new NotImplementedException();
+        return await _usuarioContext.Usuarios.FindAsync(id);
     }
 
-    public Task<Usuario> Remove(Usuario user)
+    public async Task<IEnumerable<Usuario>> GetConsultas()
     {
-        throw new NotImplementedException();
+        return await _usuarioContext.Usuarios.OrderBy(u => u.Id).ToListAsync();
     }
 
-    public Task<Usuario> Update(Usuario user)
+    public async Task<Usuario> Remove(Usuario user)
     {
-        throw new NotImplementedException();
+        _usuarioContext.Remove(user);
+        await _usuarioContext.SaveChangesAsync();
+        return user;
+    }
+
+    public async Task<Usuario> Update(Usuario user)
+    {
+        _usuarioContext.Update(user);
+        await _usuarioContext.SaveChangesAsync();
+        return user;
     }
 }

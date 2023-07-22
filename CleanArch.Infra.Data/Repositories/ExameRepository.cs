@@ -1,40 +1,47 @@
 ﻿using CleanArch.Domain.Entities;
 using CleanArch.Domain.Interfaces;
 using CleanArch.Infra.Data.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace CleanArch.Infra.Data.Repositories;
 
 public class ExameRepository : IExameRepository
 {
-    private ApplicationDbContext _emaxeContext;
+    private readonly ApplicationDbContext _emaxeContext;
 
     public ExameRepository(ApplicationDbContext emaxeContext)
     {
         _emaxeContext = emaxeContext;
     }
 
-    public Task<Exame> Create(Exame exame)
+    public async Task<Exame> Create(Exame exame)
     {
-        throw new NotImplementedException();
+        _emaxeContext.Add(exame);
+        await _emaxeContext.SaveChangesAsync();
+        return exame;
     }
 
-    public Task<Exame> GetById(int id)
+    public async Task<Exame> GetById(int? id)
     {
-        throw new NotImplementedException();
+        return await _emaxeContext.Exames.FindAsync(id);
     }
 
-    public Task<IEnumerable<Exame>> GetConsultas()
+    public async Task<IEnumerable<Exame>> GetConsultas()
     {
-        throw new NotImplementedException();
+        return await _emaxeContext.Exames.OrderBy(x => x.Id).ToListAsync();
     }
 
-    public Task<Exame> Remove(Exame exame)
+    public async Task<Exame> Remove(Exame exame)
     {
-        throw new NotImplementedException();
+        _emaxeContext.Remove(exame);
+        await _emaxeContext.SaveChangesAsync();
+        return exame;
     }
 
-    public Task<Exame> Update(Exame exame)
+    public async Task<Exame> Update(Exame exame)
     {
-        throw new NotImplementedException();
+        _emaxeContext.Update(exame);
+        await _emaxeContext.SaveChangesAsync();
+        return exame;
     }
 }

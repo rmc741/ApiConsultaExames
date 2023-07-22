@@ -7,7 +7,7 @@ namespace CleanArch.Infra.Data.Repositories;
 
 public class CategoriaRepository : ICategoriaRepository
 {
-    private ApplicationDbContext _categoriaContext;
+    private readonly ApplicationDbContext _categoriaContext;
 
     public CategoriaRepository(ApplicationDbContext context)
     {
@@ -20,7 +20,7 @@ public class CategoriaRepository : ICategoriaRepository
         return categoria;
     }
 
-    public async Task<Categoria> GetById(int id)
+    public async Task<Categoria> GetById(int? id)
     {
         return await _categoriaContext.Categorias.FindAsync(id);
     }
