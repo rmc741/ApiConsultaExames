@@ -1,5 +1,13 @@
-﻿namespace CleanArch.Infra.Data.EntitiesConfiguration;
+﻿using CleanArch.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-public class ExameConfiguration
+namespace CleanArch.Infra.Data.EntitiesConfiguration;
+
+public class ExameConfiguration : IEntityTypeConfiguration<Exame>
 {
+    public void Configure(EntityTypeBuilder<Exame> builder)
+    {
+        throw new NotImplementedException();
+    }
 }

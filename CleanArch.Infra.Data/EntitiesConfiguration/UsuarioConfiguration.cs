@@ -1,5 +1,18 @@
-﻿namespace CleanArch.Infra.Data.EntitiesConfiguration;
+﻿using CleanArch.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-public class UsuarioConfiguration
+namespace CleanArch.Infra.Data.EntitiesConfiguration;
+
+public class UsuarioConfiguration : IEntityTypeConfiguration<Usuario>
 {
+    public void Configure(EntityTypeBuilder<Usuario> builder)
+    {
+        builder.HasKey(x => x.Id);
+        builder.Property(x => x.NomeUsuario).HasMaxLength(255).IsRequired();
+        builder.Property(x => x.NomeCompleto).HasMaxLength(255).IsRequired();
+        builder.Property(x => x.Email).HasMaxLength(255).IsRequired();
+        builder.Property(x => x.Password).HasMaxLength(255).IsRequired();
+        builder.Property(x => x.Situacao).HasMaxLength(50).IsRequired();
+    }
 }

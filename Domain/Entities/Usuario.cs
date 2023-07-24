@@ -9,8 +9,8 @@ public class Usuario : EntityBase
     public string Email { get; set; }
     public string Password { get; set; }
     public string Situacao { get; set; }
-    public ICollection<Consulta> UsuarioConsultas { get; set; }
-    public ICollection<Exame> UsuarioExames { get; set; }
+    public ICollection<Consulta> Consultas { get; set; }
+    public ICollection<Exame> Exames { get; set; }
 
     public Usuario(string nomeUsuario, string nomeCompleto, string email, string password, string situacao)
     {
