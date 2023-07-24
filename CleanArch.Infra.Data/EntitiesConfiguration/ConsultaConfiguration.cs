@@ -16,5 +16,6 @@ public class ConsultaConfiguration : IEntityTypeConfiguration<Consulta>
         builder.Property(x =>x.CategoriaId).IsRequired();
 
         builder.HasOne(x => x.Categoria).WithMany(x => x.UsuarioConsultas).HasForeignKey(x => x.CategoriaId);
+        builder.HasOne(x => x.Usuario).WithMany(x => x.Consultas).HasForeignKey(x => x.UsuarioId);
     }
 }
