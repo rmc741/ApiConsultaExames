@@ -85,3 +85,11 @@ C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.API\obj\Debug\net
 C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.API\obj\Debug\net6.0\CleanArch.API.pdb
 C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.API\obj\Debug\net6.0\CleanArch.API.genruntimeconfig.cache
 C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.API\obj\Debug\net6.0\ref\CleanArch.API.dll
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.API\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.API\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.API\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.API\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll

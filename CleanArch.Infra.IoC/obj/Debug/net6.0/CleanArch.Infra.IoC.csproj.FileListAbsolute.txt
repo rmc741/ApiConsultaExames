@@ -17,3 +17,5 @@ C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.IoC\obj\Deb
 C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.IoC\obj\Debug\net6.0\refint\CleanArch.Infra.IoC.dll
 C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.IoC\obj\Debug\net6.0\CleanArch.Infra.IoC.pdb
 C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.IoC\obj\Debug\net6.0\ref\CleanArch.Infra.IoC.dll
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.IoC\bin\Debug\net6.0\CleanArch.Infra.IoC.runtimeconfig.json
+C:\Users\Rafael\Desktop\Estudos\C#\ApiConsultaExames\CleanArch.Infra.IoC\obj\Debug\net6.0\CleanArch.Infra.IoC.genruntimeconfig.cache
