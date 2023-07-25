@@ -14,5 +14,7 @@ public class UsuarioConfiguration : IEntityTypeConfiguration<Usuario>
         builder.Property(x => x.Email).HasMaxLength(255).IsRequired();
         builder.Property(x => x.Password).HasMaxLength(255).IsRequired();
         builder.Property(x => x.Situacao).HasMaxLength(50).IsRequired();
+
+        builder.HasData(new Usuario(2, "teste", "Nome Completo Teste", "teste@gmail.com", "123456", "ATIVO"));
     }
 }

@@ -15,6 +15,14 @@ public class Categoria : EntityBase
 
     }
 
+    public Categoria(int id, string nome, string tipoCategoria)
+    {
+        DomainValidationException.When(id <= 0, "Invalid Id value.");
+        Id = id;
+        ValidadeDomain(nome, tipoCategoria);
+
+    }
+
     private void ValidadeDomain(string nome, string tipoCategoria)
     {
         DomainValidationException.When(string.IsNullOrEmpty(nome), "Nome da Categoria não pode ser nulo ou vazio!");

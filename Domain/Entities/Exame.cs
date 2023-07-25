@@ -18,6 +18,13 @@ public class Exame : EntityBase
         ValidadeDomain(descricao, dataExame, medicoCRM, usuarioId, categoriaId);        
     }
 
+    public Exame(int id,string descricao, DateTime dataExame, string medicoCRM, int usuarioId, int categoriaId)
+    {
+        DomainValidationException.When(id <= 0, "Invalid Id value.");
+        Id = id;
+        ValidadeDomain(descricao, dataExame, medicoCRM, usuarioId, categoriaId);
+    }    
+
     private void ValidadeDomain(string descricao, DateTime dataExame, string medicoCRM, int usuarioId, int categoriaId)
     {
         DomainValidationException.When(string.IsNullOrEmpty(descricao), "Descrição não pode ser vazio ou nulo!");

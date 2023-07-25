@@ -17,6 +17,13 @@ public class Usuario : EntityBase
         ValidadeDomain(nomeUsuario, nomeCompleto, email, password, situacao);
     }
 
+    public Usuario(int id, string nomeUsuario, string nomeCompleto, string email, string password, string situacao)
+    {
+        DomainValidationException.When(id <= 0, "Invalid Id value.");
+        Id = id;
+        ValidadeDomain(nomeUsuario, nomeCompleto, email, password, situacao);
+    }
+
     private void ValidadeDomain(string nomeUsuario, string nomeCompleto, string email, string password, string situacao)
     {
         DomainValidationException.When(string.IsNullOrEmpty(nomeUsuario), "Nome de Usuário NÂO pode ser nulo ou vazio!");
