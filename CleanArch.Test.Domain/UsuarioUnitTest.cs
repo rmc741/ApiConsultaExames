@@ -13,6 +13,13 @@ public class UsuarioUnitTest
         action.Should().NotThrow<DomainValidationException>();
     }
 
+    [Fact(DisplayName = "Cria usuario com parametros válidos repassando Id")]
+    public void CreateUsuario_WithValidParametersId_ResultObjectValidState()
+    {
+        Action action = () => new Usuario("Nome Usuario", "Nome Completo", "Email Usuario", "SenhaUsuario", "ATIVO");
+        action.Should().NotThrow<DomainValidationException>();
+    }
+
     [Fact(DisplayName = "Cria usuario com Nome de Usuario nulo ")]
     public void CreateUsuario_WithNullUserNameValue_DomainExceptionRequiredUserName()
     {
