@@ -19,6 +19,8 @@ public class ExameDTO
     public DateTime DataExame { get; set; }
 
     [Required]
+    [MinLength(3)]
+    [MaxLength(100)]
     [DisplayName("MedicoCRM")]
     public string MedicoCRM { get; set; }
 
