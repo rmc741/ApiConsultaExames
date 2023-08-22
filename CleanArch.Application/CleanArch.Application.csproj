@@ -13,9 +13,18 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Usuarios\Commands\" />
-    <Folder Include="Usuarios\Handlers\" />
-    <Folder Include="Usuarios\Queries\" />
+    <Folder Include="CQRS\Categorias\Commands\" />
+    <Folder Include="CQRS\Categorias\Handlers\" />
+    <Folder Include="CQRS\Categorias\Queries\" />
+    <Folder Include="CQRS\Consultas\Commands\" />
+    <Folder Include="CQRS\Consultas\Handlers\" />
+    <Folder Include="CQRS\Consultas\Queries\" />
+    <Folder Include="CQRS\Exames\Commands\" />
+    <Folder Include="CQRS\Exames\Handlers\" />
+    <Folder Include="CQRS\Exames\Queries\" />
+    <Folder Include="CQRS\Usuarios\Commands\" />
+    <Folder Include="CQRS\Usuarios\Handlers\" />
+    <Folder Include="CQRS\Usuarios\Queries\" />
   </ItemGroup>
 
 </Project>
